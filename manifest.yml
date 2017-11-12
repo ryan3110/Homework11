@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: G5website
+  host: group5untangling
+  disk_quota: 1024M
+  services:
+  - G5website-cloudantNoSQLDB
